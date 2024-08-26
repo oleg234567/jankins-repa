@@ -45,7 +45,6 @@
         <module name="TypeName"/>
         <module name="ConstantName"/>
 
-
         <!-- Проверка размера методов и количества параметров -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
         <!--<module name="LineLength"/>-->

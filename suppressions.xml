@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionXpathFilter Experimental Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2_xpath_experimental.dtd">
+
+<suppressions>
+    <!-- Подавление нарушения именования констант для всех констант в проекте -->
+    <suppress checks="ConstantName"
+              message="Name of the constant should be in uppercase with underscores."
+              files=".*" />
+
+    <!-- Альтернативное подавление для конкретного файла -->
+    <!-- Подавляет все нарушения в файле Main.java -->
+    <suppress checks="ConstantName"
+              message="Name of the constant should be in uppercase with underscores."
+              files=".*Main\.java" />
+</suppressions>
